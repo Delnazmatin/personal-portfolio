@@ -1,0 +1,47 @@
+.skillsContainer {
+  width: 100%;
+  background-color: var(--backgroundGray);
+  padding: 40px 0px 70px;
+}
+.skillsContainer h1 {
+  padding: 20px 40px;
+}
+.skillsContainer ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  gap: 15px;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: center;
+}
+.skillsContainer li {
+  height: 110px;
+  background-color: var(--white);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skillsContainer span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--lightPurple);
+  color: var(--purple);
+  font-size: 30px;
+  margin: 15px 0px 0px 0px;
+  padding: 0px;
+  border: 0.5px solid gray;
+}
+.skillsContainer span:hover {
+  background-color: var(--purple);
+  color: var(--purple);
+}
+.skillsContainer p {
+  color: var(--pColor);
+  padding: 10px 0px;
+}

@@ -1,0 +1,78 @@
+.projectContainer {
+  padding: 40px 0px;
+  background-color: var(--backgroundDarkBlue);
+}
+.projectContainer h1 {
+  color: var(--white);
+  padding: 20px 40px;
+}
+.projectContainer ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 450px);
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+.projectContainer li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 510px;
+  background-color: var(--white);
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.projectContainer li h4 {
+  padding: 10px 0px;
+}
+.projectContainer img {
+  width: 100%;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  border-radius: 5px 5px 0px 0px;
+}
+.plinkToGitHub {
+  cursor: pointer;
+}
+.projectContainer h5 {
+  color: var(--headColor);
+  align-self: flex-start;
+  padding: 5px 20px 20px;
+  font-weight: 500;
+  height: 40px;
+  overflow: hidden;
+}
+.projectContainer p {
+  padding: 5px 20px;
+  color: var(--pColor);
+  font-size: smaller;
+  font-weight: 400;
+  height: 105px;
+  overflow: hidden;
+}
+@media screen and (max-width: 550px) {
+  .projectContainer ul {
+    grid-template-columns: repeat(auto-fit, 350px);
+  }
+  .projectContainer img {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .projectContainer ul {
+    grid-template-columns: repeat(auto-fit, 250px);
+  }
+  .projectContainer img {
+    height: 200px;
+  }
+  .projectContainer h5 {
+    height: fit-content;
+  }
+  .projectContainer p {
+    height: fit-content;
+  }
+}

@@ -1,0 +1,21 @@
+.bigButton {
+  width: 140px;
+  height: 50px;
+  background-color: var(--lightPurple);
+  border: none;
+  margin: 1px;
+  cursor: pointer;
+}
+.bigButton:hover {
+  background-color: var(--purple);
+  color: var(--white);
+  transition: ease-in 250ms;
+}
+
+@media screen and (max-width: 550px) {
+  .bigButton {
+    width: 80px;
+    height: 40px;
+    font-size: 11px;
+  }
+}

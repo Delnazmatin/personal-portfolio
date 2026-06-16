@@ -1,0 +1,13 @@
+.educationContainer {
+  background-color: var(--white);
+  padding: 20px;
+  text-align: center;
+}
+.educationContainer h1 {
+  padding: 30px;
+}
+.educationContainer p {
+  color: var(--pColor);
+  padding: 10px;
+  font-weight: 300;
+}

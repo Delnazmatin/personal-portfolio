@@ -1,0 +1,23 @@
+.aboutMe {
+  background: #f1f0f3;
+  background: radial-gradient(
+    circle,
+    rgba(241, 240, 243, 1) 72%,
+    rgba(237, 216, 255, 1) 95%
+  );
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 3px;
+}
+.aboutMe h3 {
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+.aboutMe p {
+  line-height: 1.5rem;
+}
