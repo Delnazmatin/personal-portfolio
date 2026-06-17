@@ -1,10 +1,5 @@
 import "@/components/projects/style.css";
 import Image from "next/image";
-import adminPanel from "@/assets/picture/adminPanel-screenshot.png";
-import currencyConverter from "@/assets/picture/currencyConverter-screenshot.png";
-import menulo from "@/assets/picture/menulo-screenshot.png";
-import weatherApp from "@/assets/picture/weather-screenshot.png";
-import pawGallery from "@/assets/picture/powGallery-screenshot.png";
 import { Button } from "../button/Button";
 import { ProjectData } from "@/data/projectData";
 
@@ -16,7 +11,12 @@ export const Projects = () => {
         {ProjectData.map((project, index) => {
           return (
             <li key={index}>
-              <Image src={project.imageSource} alt={project.imageAlt} />
+              <Image
+                src={project.imageSource}
+                alt={project.imageAlt}
+                width={100}
+                height={250}
+              />
               <h4>{project.name}</h4>
               <p>{project.explanation}</p>
               <h5>Tech: {project.tech}</h5>

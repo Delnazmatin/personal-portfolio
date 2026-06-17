@@ -1,5 +1,5 @@
 import "@/components/introduction/style.css";
-import ProfilePicture from "@/assets/picture/myPicture.jpg";
+// import ProfilePicture from "@/public/picture/myPicture.jpg";
 import Image from "next/image";
 import { BigButton } from "../bigButton/BigButton";
 
@@ -8,7 +8,7 @@ export const Introduction = () => {
     <div className="introductionContainer">
       <div className="profilePicture">
         <Image
-          src={ProfilePicture}
+          src="/picture/myPicture.jpg"
           alt="my picture"
           width={250}
           height={250}
