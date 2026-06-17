@@ -75,4 +75,7 @@
   .projectContainer p {
     height: fit-content;
   }
+  .projectContainer li {
+    height: 550px;
+  }
 }
