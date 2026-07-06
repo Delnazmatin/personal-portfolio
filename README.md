@@ -26,7 +26,7 @@ This portfolio was created to present my work as a Front-End Developer and highl
 
 ## Live Demo
 
-[View Portfolio]((https://personal-portfolio-8wn.pages.dev))
+https://personal-portfolio-8wn.pages.dev
 
 ## Screenshot
 
