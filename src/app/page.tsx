@@ -20,8 +20,8 @@ export default function Home() {
         <AboutMe />
         <Skills />
         <Projects />
-        <Education />
         <Experience />
+        <Education />
       </main>
       <footer>
         <Footer />

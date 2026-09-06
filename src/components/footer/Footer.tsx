@@ -11,7 +11,7 @@ export const Footer = () => {
             <FaGithub />
           </span>
         </a>
-        <a href="https://www.linkedin.com/in/delnaz-pourmatin-771018352/">
+        <a href="https://www.linkedin.com/in/delnaz-pourmatin/">
           <span>
             <FaLinkedin />
           </span>
@@ -22,7 +22,7 @@ export const Footer = () => {
           </span>
         </a>
       </div>
-      <h4>Delnazmatin@gmail.com</h4>
+      <h3>Delnazmatin@gmail.com</h3>
     </div>
   );
 };

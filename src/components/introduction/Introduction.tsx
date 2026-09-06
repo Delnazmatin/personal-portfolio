@@ -10,8 +10,8 @@ export const Introduction = () => {
         <Image
           src="/picture/myPicture.jpg"
           alt="my picture"
-          width={250}
-          height={250}
+          width={350}
+          height={350}
           className="profileImage"
         />
       </div>

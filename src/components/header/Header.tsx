@@ -3,7 +3,7 @@ import { Logo } from "../logo/Logo";
 
 export const Header = () => {
   return (
-    <header className="">
+    <header>
       <Logo />
       <div className="navbar">
         <ul>
@@ -20,7 +20,7 @@ export const Header = () => {
             <li>Experience</li>
           </a>
           <a href="#contactMe">
-            <li>Contact me</li>
+            <li>Contact</li>
           </a>
         </ul>
       </div>

@@ -6,7 +6,7 @@ import { ProjectData } from "@/data/projectData";
 export const Projects = () => {
   return (
     <div className="projectContainer" id="projects">
-      <h1>Projects</h1>
+      <h1 className="projectHeader">Projects</h1>
       <ul>
         {ProjectData.map((project, index) => {
           return (
@@ -17,12 +17,14 @@ export const Projects = () => {
                 width={100}
                 height={250}
               />
-              <h4>{project.name}</h4>
-              <p>{project.explanation}</p>
-              <h5>Tech: {project.tech}</h5>
-              <a className="linkToGitHub" href={project.gitHubLink}>
-                <Button text="go to gitHub" />
-              </a>
+              <section className="explainProject">
+                <h1>{project.name}</h1>
+                <p>{project.explanation}</p>
+                <h5>Tech: {project.tech}</h5>
+                <a className="linkToGitHub" href={project.gitHubLink}>
+                  <Button text="go to gitHub" />
+                </a>
+              </section>
             </li>
           );
         })}

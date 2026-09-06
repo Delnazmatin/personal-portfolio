@@ -37,18 +37,13 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 0 30px;
 }
 main {
   background-color: var(--white);
-  /* background: #f0f1f3;
-  background: linear-gradient(
-    131deg,
-    rgba(240, 241, 243, 1) 59%,
-    rgba(172, 225, 175, 1) 80%,
-    rgba(255, 204, 110, 1) 96%
-  ); */
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+p {
+  text-align: justify;
 }

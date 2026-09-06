@@ -8,9 +8,9 @@ export const Skills = () => {
         {SkillsData.map((skill, index) => {
           return (
             <li key={index}>
-              {skill.name}{" "}
+              <span className="skillTitle">{skill.name}</span>
               {skill.icon && (
-                <span>
+                <span className="skillIcon">
                   <skill.icon />
                 </span>
               )}

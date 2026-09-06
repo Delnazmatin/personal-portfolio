@@ -22,7 +22,7 @@
   align-items: flex-start;
 }
 .IntroductionInfo p {
-  margin-top: 15px;
+  margin: 15px 20px;
 }
 .IntroductionInfo h4 {
   margin-top: 10px;
@@ -31,7 +31,7 @@
   color: var(--white);
 }
 .profileImage {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .buttonContainer {
   display: flex;
@@ -43,6 +43,10 @@
 @media screen and (max-width: 950px) {
   .introductionContainer {
     flex-direction: column;
+  }
+  .profileImage {
+    width: 250px;
+    height: 250px;
   }
   .IntroductionInfo {
     width: 100%;
