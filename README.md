@@ -1,65 +1,91 @@
-# Personal Portfolio
+# 🌍 Langora
 
-A modern and responsive portfolio website built with **Next.js**, **TypeScript**, and **CSS**, showcasing my skills, projects, experience, and contact information.
+Langora is a modern language learning web application built with **Next.js**, **React**, and **TypeScript**.
 
-## About
+It allows users to create an account, choose their target language and proficiency level, and manage their vocabulary learning journey through a simple and responsive interface.
 
-This portfolio was created to present my work as a Front-End Developer and highlight my experience with modern web technologies. The website includes information about my background, technical skills, featured projects, education, and ways to get in touch.
+## ✨ Features
 
-## Features
+### 🔐 Authentication Forms
 
-- Responsive design for desktop, tablet, and mobile devices
-- Modern and clean user interface
-- Downloadable resume
-- Project showcase section
-- Skills and experience sections
-- Smooth scrolling navigation
-- Contact links for easy communication
+- Sign Up
+- Log In
+- Form validation with **React Hook Form** and **Zod**
+- Client-side validation and error handling
 
-## Built With
+### 🌎 Language Selection
 
-- Next.js
-- React
-- TypeScript
-- CSS
-- Git & GitHub
+- Choose a target language
+- Continue only after selecting a language
 
-## Live Demo
+### 📚 Level Selection
 
-https://personal-portfolio-8wn.pages.dev
+- Beginner
+- Elementary
+- Intermediate
+- Advanced
 
-## Screenshot
+### 📖 Dashboard
 
-<img src="./public/screenshot/Screenshot.png" alt="Portfolio Screenshot" width="800" />
+- Add new words
+- View word lists
+- Dashboard navigation
+- Responsive mobile-first layout
 
-## Getting Started
+### 🚧 Coming Soon
 
-Clone the repository:
+- Flashcards
+- Learning statistics
+- Story Mode
 
-```bash
-git clone https://github.com/Delnazmatin/personal-portfolio.git
-```
+### 📱 Responsive Design
 
-Install dependencies:
+- Mobile-first layout
+- Tablet support
+- Desktop support
 
-```bash
-npm install
-```
+### 🧪 Testing
 
-Run the development server:
+- Unit testing with **Vitest**
+- Component testing with **React Testing Library**
+- User interaction testing with **Testing Library User Event**
+- Form validation tests
 
-```bash
-npm run dev
-```
+---
 
-Build for production:
+## 🛠️ Built With
 
-```bash
-npm run build
-```
+- **Next.js**
+- **React**
+- **TypeScript**
+- **React Hook Form**
+- **Zod**
+- **Vitest**
+- **React Testing Library**
+- **Testing Library User Event**
+- **CSS3**
+- **React Icons**
 
-## Contact
+---
 
-- GitHub: https://github.com/Delnazmatin
-- LinkedIn: https://www.linkedin.com/in/delnaz-pourmatin-771018352/
-- Email: DelnazMatin@gmail.com
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+---
+
+## 📸 Screenshot
+
+![Langora Screenshot](./public/screenshot/screenshot.png)
+
+---
+
+## 👩‍💻 Author
+
+**Delnaz Pourmatin**
+
+- [GitHub](https://github.com/Delnazmatin/)
+- [LinkedIn](https://www.linkedin.com/in/delnaz-pourmatin/)
