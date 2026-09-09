@@ -25,11 +25,11 @@ export const Introduction = () => {
           TypeScript, and Next.js.
         </p>
 
-        <div className="buttonContainer">
+        {/* <div className="buttonContainer">
           <a href="/resume/DelnazPourmatin-resume.pdf" download>
             <BigButton text="Download Resume" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
